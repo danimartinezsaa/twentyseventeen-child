@@ -1,0 +1,78 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Theme URI:    http://example.com/twenty-seventeen-child/
+ Description:  Twenty Seventeen Child Theme Retocado
+ Author:       Dani
+ Author URI:   http://example.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+/* =Aquí empieza la personalización de tu tema
+-------------------------------------------------------------- */
+
+@import url("../twentyseventeen/style.css");
+
+button.search-submit{
+	background-color:red;
+}
+
+.titulo-dani{
+ color:red;
+ font-weight: bold;
+} 
+
+.seguir-leyendo:hover{
+ color:#b4b7ba;
+}
+
+.seguir-leyendo{
+ margin-bottom:100px;
+}
+
+
+.post-categories li{
+ list-style-type: none;
+ display:inline;
+ color:red;
+}
+
+.post-categories li a{
+ font-weight: bold;
+}
+
+#colophon .wrap .menu-hola-container ul{
+ list-style:none;
+}
+
+#colophon .wrap .menu-hola-container ul li{
+ display:inline;
+ font-family: Arial;
+ font-size: 18px;
+ text-decoration: none;
+ float: left;
+ padding: 10px;
+ color: #fff;
+}
+
+.widget-dani{
+ border-top: 3px solid #369;
+ border-bottom: 3px solid #369;
+ border-left: 3px solid #369;
+ border-right: 3px solid #369;
+ padding-top:30px;
+ padding-left:30px;
+ padding-bottom:30px;
+ padding-right:30px;
+}
+
+.widget-title-dani{
+ color:#369;
+}
+
+.descripcion{
+ float:right;
+}
