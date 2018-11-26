@@ -21,6 +21,7 @@
 				<?php 
 				
 					//Recogemos un nuevo menú definido en functions.php
+					//Commit
 					wp_nav_menu( array( 'theme_location' => 'en-pie-menu' ) );
 					
 					//Recogemos las areas de widgets definidas en functions.php

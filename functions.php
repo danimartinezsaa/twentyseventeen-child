@@ -27,6 +27,7 @@ function funcion_widgets_dani() {
 add_action('widgets_init','funcion_widgets_dani');
 
 //Función para crear un nuevo menú
+//Commit
 function menu_dani() {
   register_nav_menu('en-pie-menu',__( 'Menu en pie de página' ));
 }
