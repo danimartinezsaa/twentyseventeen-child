@@ -15,5 +15,8 @@
 		the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 	}
 	?>
-	<?php echo('Modificado por dani. Hecho por Wordpress') ?>
+	
+	<?php //Modificado mensaje footer 
+	
+			echo('Modificado por dani. Hecho por Wordpress') ?>
 </div><!-- .site-info -->
