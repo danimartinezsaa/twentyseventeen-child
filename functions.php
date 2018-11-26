@@ -22,6 +22,7 @@ function funcion_widgets_dani() {
 	) );
 }
 //Para que funcione el area de widgets tenemos que pasarselo a la función add_action con widgets_init. Después llamamos a dynamic_sidebar en la zona del tema
+
 //en la que lo queramos añadir. Este lo añadimos al footer, por ejemplo.
 add_action('widgets_init','funcion_widgets_dani');
 

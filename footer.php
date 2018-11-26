@@ -24,6 +24,7 @@
 					wp_nav_menu( array( 'theme_location' => 'en-pie-menu' ) );
 					
 					//Recogemos las areas de widgets definidas en functions.php
+					//Commit
 					dynamic_sidebar( 'sidebar-dani2' );
 					get_template_part( 'template-parts/footer/site', 'info' );
 				?>
