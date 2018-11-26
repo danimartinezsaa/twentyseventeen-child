@@ -38,21 +38,23 @@ get_header(); ?>
 				while ( have_posts() ) {
 					the_post();
 			?>
-					
+					<!--Mostramos el título con un enlace al post-->
 					<a href="<?php the_permalink(); ?>"><h2 class="titulo-dani"><?php the_title(); ?></h2></a>
+					<!--Mostramos las categorías-->
 					<p class="categorias"><?php the_category(); ?></p>
 			<?php
-					
+					//Sacamos la foto del post
 					the_post_thumbnail('thumbnail');
 			?>
+					<!--Sacamos el autor del post y la fecha-->
 					<p><?php the_author(); ?> - <?php the_time('F j, Y'); ?></p>
 					
-					
+					<!--Sacamos la descripcion del post-->
 			<span class="descripcion">	<?php
 					the_excerpt();
 			?></span>
 		
-			
+			<!--Enlace a seguir leyendo-->
 			<a class="seguir-leyendo" href="<?php the_permalink(); ?>" >Seguir leyendo</a>
 			
 			<?php

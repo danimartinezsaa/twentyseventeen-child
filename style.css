@@ -25,15 +25,17 @@ button.search-submit{
  font-weight: bold;
 } 
 
+/*Hover al enlace de seguir leyendo*/
 .seguir-leyendo:hover{
  color:#b4b7ba;
 }
 
+/*Margen entre post*/
 .seguir-leyendo{
  margin-bottom:100px;
 }
 
-
+/*Eliminamos el formato lista a las categorías*/
 .post-categories li{
  list-style-type: none;
  display:inline;
@@ -44,6 +46,7 @@ button.search-submit{
  font-weight: bold;
 }
 
+/*Eliminamos el formato lista al menú del footer*/
 #colophon .wrap .menu-hola-container ul{
  list-style:none;
 }
@@ -72,8 +75,4 @@ button.search-submit{
 
 .widget-title-dani{
  color:#369;
-}
-
-.descripcion{
- float:right;
 }
