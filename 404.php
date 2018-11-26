@@ -19,6 +19,7 @@ get_header(); ?>
 			<section class="error-404 not-found">
 				<header class="page-header">
 					<h1 class="page-title"><?php _e( 'EEEEERRORR.', 'twentyseventeen' ); ?></h1>
+					<img src="/wordpress/wp-content/themes/twentyseventeen-child/404.png" alt="error al cargar foto">
 				</header><!-- .page-header -->
 				<div class="page-content">
 					<p><?php _e( 'Se ve que hay un error', 'twentyseventeen' ); ?></p>
