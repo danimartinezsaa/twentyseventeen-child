@@ -22,14 +22,8 @@ get_header(); ?>
 					<img src="/wordpress/wp-content/themes/twentyseventeen-child/404.png" alt="error al cargar foto">
 				</header><!-- .page-header -->
 				<div class="page-content">
-					<p><?php _e( 'Se ve que hay un error', 'twentyseventeen' ); ?></p>
-
-					<?php get_search_form(); ?>
-
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->
 		</main><!-- #main -->
 	</div><!-- #primary -->
 </div><!-- .wrap -->
-
-<?php get_footer();

@@ -78,3 +78,16 @@ button.search-submit{
 }
 
 /*Commit*/
+
+/*Fondo*/
+.navigation-top{
+ background-color:red;
+}
+
+.site-footer{
+ background-image:url('estadio.jpg');
+}
+
+#css-widget-footer{
+ background-color:red;
+}

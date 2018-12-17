@@ -33,7 +33,8 @@ get_header(); ?>
 
 			<?php
 			if ( have_posts() ) {
-
+				/*filtrar categoría*/
+				query_posts( 'category_name=codigo' );
 				/* Start the Loop */
 				while ( have_posts() ) {
 					the_post();
